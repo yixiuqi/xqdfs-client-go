@@ -6,7 +6,7 @@ import (
 )
 
 func TestClientDelete(t *testing.T) {
-	url:="MSwxLDEsNjU5ODAwNTA2ODIzMzg3NTQ1MiwxMTIyMzM0NA=="
+	url:="MSwxLDIsNjU5ODAwNzc3MTc3MTkzMjE0NCwxMTIyMzM0NA=="
 	err:=ClientDelete("http://192.168.10.25:10087/opt/delete",url)
 	if err!=nil {
 		t.Error(err)
